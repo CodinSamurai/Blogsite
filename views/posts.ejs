@@ -1,0 +1,9 @@
+<%- include("partials/header"); -%>
+
+<%  post22.forEach(function(post2){ %>
+        <h2> <%= post2.title.toUpperCase() %> </h2>
+        <p>  <%= post2.inner %></p>
+   <% }) %>
+
+
+<%- include("partials/footer"); -%>
